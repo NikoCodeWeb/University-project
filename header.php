@@ -60,13 +60,13 @@
                 
             </div>
         <div class="logodiv">
-            <img class="logoimg" src="logo.png" width="100px">
+           <a href="index.php"> <img class="logoimg" src="logo.png" width="100px"></a>
         </div>
         <div class="diviconrtl">
             <ul>
-            <li class="icon r">
-            <i class="pe-7s-user ">
-            </i>
+            <li class="icon ">
+            <a href="signin.php"> <i class="pe-7s-user ">
+            </i></a>
             <!-- <ul class="uluser a">
                 <li class="liuser">Login</li>
                 <li class="liuser">Register</li>
@@ -87,7 +87,7 @@
         </div>
     <li>
         
-          <button> <i class="pe-7s-search"></i></button> 
+         <button> <i class="pe-7s-search"></i></button> 
         </li>
         </ul>
         </div>
