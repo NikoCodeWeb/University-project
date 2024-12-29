@@ -9,11 +9,15 @@ html,body,form{
 .bg-color-gold{
     background-color: #c29958;
 }
+.color-gold{
+    color: #c29958;
+}
 .div-style{
     width: 100%;
     height: 80px;
     padding: 30px 50px;
     box-sizing: border-box;
+    margin-bottom: 60px;
 }
 .a-color{
     color: black;
@@ -46,7 +50,6 @@ html,body,form{
     font-size: 20px;
 }
 .div-signin form .input{
-    color: #d1d1d1;
     background-color: #f7f7f7;
     padding: 10px 15px;
     width: 420px;
@@ -60,16 +63,70 @@ html,body,form{
     border-color:  #c29958;
 }
 .div-signin form .input:disabled{
-    color: #5e3333;
+    color:  #d1d1d1;
 }
 .div-signin form .checkbox{
     margin-right: 20px;
     margin-bottom: 20px;
 }
 .div-signin form .button{
-    color: white;
+    color: #ffffff;
     height: 40px;
     width: 90px;
     border: none;
     
+}
+.i-space{
+    margin-right: 10px;
+}
+.div-img{
+    border: 1px solid #c29958;
+    margin: 2px 2px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    position: absolute;
+
+
+}
+.div-input{
+    width: 100%;
+    height: 1000px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    position: relative;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+
+}
+.img2{
+    left: 0;
+}
+.img3{
+    right: 0;
+}
+.top-1{
+    top:350px;
+}
+.top-0{
+    top:30px;
+    
+}
+.top-2{
+    top:680px;
+}
+.div-btn{
+    display: grid;
+    place-items: center;
+    width: 100%;
+    height: 100px;
+}
+.btn{
+    width: 70px;
+    height: 70px;
+    background-color: #c29958;
+    border: 2px solid #866a3b;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
 }

@@ -18,16 +18,16 @@
     <body>
         <?php include 'header.php'; ?>
         <div class="div div-style bg-color-gray">
-            <a href="index.html"><i class="fa fa-home a-color"></i></a>
+            <a href="index.php"><i class="fa fa-home a-color"></i></a>
         </div>
         <div class="div-form">
         <div class="div-signin">
                 <p><b>Sign In</b></p>
-                <form>
-                    <input class="input" type="email" placeholder="Email or Username">
-                    <input class="input" type="email" placeholder="Enter your Password">
+                <form action="process.php" method="post">
+                    <input class="input" type="email" id="email" name="email" placeholder="Email or Username" required >
+                    <input class="input" type="password" id="password" name="password" placeholder="Enter your Password" required>
                     <input class="checkbox" type="checkbox"><label>Remember Me</label><br>
-                    <button class="button bg-color-gold" type="button">Login</button>
+                    <input class="button bg-color-gold" type="submit" value="Login">
                 </form>
             </div>
 </div>

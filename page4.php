@@ -10,8 +10,6 @@
           <link rel="stylesheet" href="assets/Css/fontawesome.css">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-       
     </head>
     <body>
       <?php include 'header.php'; ?>
@@ -19,13 +17,13 @@
             <div class="slider">
                 <div class="slides">
                     <div id="slide1" class="slide">
-                        <img src="2.png" alt="slide1">
+                        <img src="page4-2.webp" alt="slide1">
                         <h2 class="text">Preals Spring<br>Collection</h2>
                         <h4 class="text1">New pearl earrings and more from $99</h4>
                         <a class="readmore" hraf="#"> Read More</a>
                     </div>
                     <div id="slide2" class="slide">
-                        <img src="1.jpg" alt="slide2">
+                        <img src="page4-1.webp" alt="slide2">
                         <div class="text2">Family Jewelry<br>Collection</div>
                         <div class="text3">Designer Jewelry Necklaces-Bracelets-Earings</div>
                         <a class="readmore" hraf="#"> Read More</a>
@@ -47,8 +45,9 @@
         </div>  
                  <div class="div-img3"><img src="ax3.png"></div>
 
-            <?php include 'footer.php'; ?>
+            
         </section>
+        <?php include 'footer.php'; ?>
     </body>
     <script src="script.js"></script>
 </html>

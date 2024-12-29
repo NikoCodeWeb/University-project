@@ -14,6 +14,15 @@ html,body , form {
     padding: 0px 20px;
     font-size: 15px;
 }
+.bg-color{
+    background-color: #802222;
+}
+.color-gold{
+    color: #c29958;
+}
+.color-gray{
+    color: #646464;
+}
 #s1{
     cursor: pointer;
 }
@@ -431,14 +440,47 @@ html,body , form {
     width: 100%;
     height:80vh;
 }
-
-.section2 .div1{
-    margin-top: 30px;
+.div-collaction-nametop{
     padding-top: 30px;
+    margin-bottom: 15px;
    justify-content: center;
    text-align: center;
-  
 }
-.section2 p{
-    color:#222222;
+.div-collaction{  
+      position: relative;
+      justify-content: center;
+      box-sizing: border-box;
+      padding: 30px 30px;
+      height: 900px;
+}
+
+.div-img1{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    width: 955px;
+    position: absolute;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid #c29958;
+    margin-bottom: 30px;
+}
+.div-img2{
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    width: 955px;
+    height: 400px;
+    top:450px;
+    position: absolute;
+    box-sizing: border-box;
+    border: 1px solid #c29958;
+    margin-bottom: 30px;
+}
+.div-img3{
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    top:1000px;
+    margin-bottom: 150px;
 }

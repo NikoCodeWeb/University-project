@@ -80,7 +80,7 @@
             0
         </div>
         <li class="icon">
-            <i class="pe-7s-shopbag"></i>
+           <a href="page5.php"> <i class="pe-7s-shopbag"></i></a>
         </li>
         <div class="notif1">
             5
@@ -99,7 +99,7 @@
            <div>
             <ul>
             
-            <li class="homeli"><a href="#">Home Version 01</a></li>
+            <li class="homeli"><a href="page4.php">Home Version 01</a></li>
             <li class="homeli"><a href="#">Home Version 02</a></li>
             <li class="homeli"><a href="#">Home Version 03</a></li>
             <li class="homeli"><a href="#">Home Version 04</a></li>
